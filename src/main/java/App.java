@@ -10,8 +10,8 @@ public class App {
                 (HelloWorld) applicationContext.getBean("helloworld");
         HelloWorld bean2 =
                 (HelloWorld) applicationContext.getBean("helloworld");
-        Cat beanCat = (Cat) applicationContext.getBean("Cat");
-        Cat beanCat2 = (Cat) applicationContext.getBean("Cat");
+        Cat beanCat = (Cat) applicationContext.getBean("cat");
+        Cat beanCat2 = (Cat) applicationContext.getBean("cat");
         System.out.println(bean.getMessage());
         System.out.println(bean2.getMessage());
         System.out.println(beanCat.getMessage());
